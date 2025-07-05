@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Links website</title>
+<script src="https://unpkg.com/feather-icons"></script>
+<style>
+
+
+body {
+  background-color: black;
+  color: white; /* Optional: make text white for contrast */
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+  border: none;
+}
+
+
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: white;
+}
+
+.banner-wrapper {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.profile-pic {
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+.top-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centers the whole container horizontally */
+  gap: 10px;            /* space between links */
+  width: 100%;
+  margin-top: 20px;
+}
+
+.links-container a {
+  display: flex;
+  align-items: center;             /* Vertically center content */
+  justify-content: center;        /* Horizontally center content */
+  width: 300px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: #222;         /* Optional: for contrast */
+  gap: 10px;                      /* Space between icon and text */
+  text-align: center;
+}
+
+.link-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+
+.link-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+
+
+.w3-theme-l1:hover {
+  background-color: lightgray !important;
+}
+
+.margin-top-2 {
+  margin-top: 32px;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.bottom span, .bottom a {
+  color: white;
+}
+
+.title-role {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: white;
+  display: inline-block;
+}
+
+.bottom svg {
+  stroke: black;
+  fill: black;
+}
+img {
+  border: 3px solid white;
+}
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+</style>
+  </head>
+  <body>
+    <div class="banner-wrapper">
+      <img src="background.png" alt="Top Banner" class="top-banner">
+      <img src="jeffpic.JPG" alt="Profile" class="profile-pic">
+    </div>
+    <div style="margin-top: 70px;"></div>
+
+    <!-- Content container -->
+    <div class="container">
+      <!-- Image and name container. Change to your pictue here. -->
+      <div style="text-align: center; margin-top: 20px;">
+        <p class="allura-regular" style="margin: 0;">Jeff Carrillo</p>
+        <p class="title-role" style="margin: -20px; margin-bottom: 50px;">Owner and CEO</p>
+      </div>
+      </div>
+
+      <!-- Links section 1. Replace the # inside of the "" with your links. -->
+      <div class="links-container">
+        <a href="https://jczounds.com/" target="_blank">
+          <!-- <img src="background.png" class="link-icon" alt="Website icon"> -->
+          Website
+        </a>
+        <a href="mailto:Jczounds@gmail.com" target="_blank">
+          <!-- <img src="gm.png" class="link-icon" alt="Gmail icon"> -->
+          Contact Me
+        </a>
+        <a href="https://www.instagram.com/jczounds/" target="_blank">
+          <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class="link-icon" alt="Instagram icon"> -->
+          Instagram
+        </a>
+
+
+
+        <a href="https://soundcloud.com/JeffCarrDmv" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">
+          <!-- <img src="soundcloud.png" class="link-icon"> -->
+          SoundCloud
+        </a>
+
+        <a href="https://www.facebook.com/JcZounds/" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">
+          <!-- <img src="facebook.png" class="link-icon"> -->
+          Facebook
+        </a>
+
+        <a href="https://www.threads.com/@jczounds" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">
+          <!-- <img src="thread.png" class="link-icon"> -->
+          Threads
+        </a>
+
+        <a href="https://g.page/r/CXDVcW8A4d5dEAI/review" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">
+          <!-- <img src="googoo.png" class="link-icon"> -->
+          Google Reviews
+        </a>
+      </div>
+    </div>
+    <script>
+      feather.replace()
+    </script>
+
+</body></html>
